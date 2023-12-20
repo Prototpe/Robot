@@ -137,6 +137,8 @@ function doble(numero) {
 function caminar_1() {
 
 
+    x = x + 100;
+    objeto.style.left = x + "px";
 
     document.querySelector(".pararR").play("loop");
 
@@ -154,6 +156,12 @@ function caminar_1() {
 }
 
 function caminar_2() {
+
+   
+    x = x + 400;
+    objeto.style.left = x + "px";
+
+
     document.querySelector(".pierna_der").style.rotate = ("-50deg");
     document.querySelector(".pantorrillaD").style.rotate = ("10deg");
     document.querySelector(".PieD").style.rotate = ("30deg");
