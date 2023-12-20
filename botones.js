@@ -34,6 +34,6 @@ botonDer.addEventListener("mouseup",camn2);
 
 
 
-arma1.addEventListener("mousedown",rayo_rojo_activacion);
+arma1.addEventListener("mouseenter",rayo_rojo_activacion);
 
-arma1.addEventListener("mouseup",rayo_rojo_desactivacion);
+arma1.addEventListener("mouseleave",rayo_rojo_desactivacion);
