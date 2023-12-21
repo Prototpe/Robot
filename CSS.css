@@ -58,6 +58,12 @@ body {
     width: 1920px;
     height: 1080px;
     position: absolute;
+    background-image: url(imagenes/robotsguerra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(0px); /*Ajusta el valor según sea necesario
     /*background-image: url(imagenes/fondo\ desierto.jpg);
     background-position: center;
     background-repeat: no-repeat;

@@ -66,7 +66,6 @@ function armaplasmadesactivar() {
 function pararMisiles() {
     document.querySelector(".pararR").play("loop");
     document.querySelector(".vuelo").pause();
-    document.querySelector(".vuelo").pause();
 
     document.querySelector(".misileslaser").style.animation = "paused";
     document.querySelector(".m2").style.animation = "paused";
@@ -92,15 +91,15 @@ function pararMisiles() {
 }
 
 
-function misiles() {
-    document.querySelector(".vuelo1").play();
+//function misiles() {
+   // document.querySelector(".vuelo1").play();
 
-}
+//}
 
 
 function misiles1() {
 
-    document.querySelector(".vuelo").play();
+    document.querySelector(".vuelo").play("loop");
 
 
 
@@ -130,14 +129,12 @@ function misiles1() {
 }
 
 
-function doble(numero) {
-    return 4 * numero;
-}
+
 
 function caminar_1() {
 
 
-    x = x + 100;
+    x = x + 50;
     objeto.style.left = x + "px";
 
     document.querySelector(".pararR").play("loop");
@@ -158,7 +155,7 @@ function caminar_1() {
 function caminar_2() {
 
    
-    x = x + 400;
+    x = x + 100;
     objeto.style.left = x + "px";
 
 
@@ -462,7 +459,7 @@ function vueloArriba(){
 function vueloAbajo(){
 
     document.querySelector("#player").style.top = ("200px");
-    estabilizar_valor0()
+    //estabilizar_valor0()
 }
 
 
