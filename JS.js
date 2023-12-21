@@ -194,6 +194,11 @@ function estabilizar_valor0() {
     document.querySelector(".hombrobrazocuchilla").style.rotate = ("0deg");
 
     document.querySelector(".brazocuchilla").style.rotate = ("0deg");
+
+    x = x - 800;
+    objeto.style.left = x + "px";
+    
+    document.querySelector(".vuelo").play();
 }
 
 
@@ -667,20 +672,9 @@ document.addEventListener("keyup", function (e) {
 
 
     if (e.code === "ArrowLeft") {
-        x = x - 800;
-        objeto.style.left = x + "px";
-        
-        document.querySelector(".vuelo").play();
-
+    
 
         estabilizar_valor0()
-
-
-        /*
-               
-        */
-
-
 
     }
 
